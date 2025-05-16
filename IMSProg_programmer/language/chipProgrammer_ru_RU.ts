@@ -49,6 +49,41 @@
     </message>
 </context>
 <context>
+    <name>DialogCompare</name>
+    <message>
+        <location filename="../dialogcompare.ui" line="14"/>
+        <source>Comparing files:</source>
+        <translation>Сравнение файлов:</translation>
+    </message>
+    <message>
+        <location filename="../dialogcompare.ui" line="68"/>
+        <source>CRC32: </source>
+        <translation>CRC32: </translation>
+    </message>
+    <message>
+        <location filename="../dialogcompare.ui" line="100"/>
+        <location filename="../dialogcompare.ui" line="187"/>
+        <source>Name</source>
+        <translation>Назв.</translation>
+    </message>
+    <message>
+        <location filename="../dialogcompare.ui" line="155"/>
+        <source>CRC32:</source>
+        <translation>CRC32:</translation>
+    </message>
+    <message>
+        <location filename="../dialogcompare.ui" line="201"/>
+        <source>Visible ASCII areas</source>
+        <translation>Показать области ASCII</translation>
+    </message>
+    <message>
+        <location filename="../dialogcompare.cpp" line="107"/>
+        <location filename="../dialogcompare.cpp" line="108"/>
+        <source>Name: </source>
+        <translation>Имя:</translation>
+    </message>
+</context>
+<context>
     <name>DialogInfo</name>
     <message>
         <location filename="../dialoginfo.ui" line="14"/>
@@ -557,50 +592,50 @@
         <translation>Номер регистра безопасности:</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="171"/>
-        <location filename="../dialogsecurity.cpp" line="181"/>
-        <location filename="../dialogsecurity.cpp" line="254"/>
-        <location filename="../dialogsecurity.cpp" line="288"/>
-        <location filename="../dialogsecurity.cpp" line="357"/>
-        <location filename="../dialogsecurity.cpp" line="382"/>
-        <location filename="../dialogsecurity.cpp" line="415"/>
+        <location filename="../dialogsecurity.cpp" line="167"/>
+        <location filename="../dialogsecurity.cpp" line="177"/>
+        <location filename="../dialogsecurity.cpp" line="250"/>
+        <location filename="../dialogsecurity.cpp" line="284"/>
+        <location filename="../dialogsecurity.cpp" line="353"/>
+        <location filename="../dialogsecurity.cpp" line="378"/>
+        <location filename="../dialogsecurity.cpp" line="411"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="171"/>
+        <location filename="../dialogsecurity.cpp" line="167"/>
         <source>Error reading register!</source>
         <translation>Ошибка чтения регистра!</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="181"/>
-        <location filename="../dialogsecurity.cpp" line="288"/>
-        <location filename="../dialogsecurity.cpp" line="357"/>
+        <location filename="../dialogsecurity.cpp" line="177"/>
+        <location filename="../dialogsecurity.cpp" line="284"/>
+        <location filename="../dialogsecurity.cpp" line="353"/>
         <source>Programmer CH341a is not connected!</source>
         <translation>Программатор CH341a не подключен!</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="254"/>
+        <location filename="../dialogsecurity.cpp" line="250"/>
         <source>Error writing register!</source>
         <translation>Ошибка записи регистра!</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="373"/>
+        <location filename="../dialogsecurity.cpp" line="369"/>
         <source>Open file</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="382"/>
+        <location filename="../dialogsecurity.cpp" line="378"/>
         <source>The file size exceeds the security register size.</source>
         <translation>Размер файла превышает размер регистра безопасности.</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="404"/>
+        <location filename="../dialogsecurity.cpp" line="400"/>
         <source>Save file</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../dialogsecurity.cpp" line="415"/>
+        <location filename="../dialogsecurity.cpp" line="411"/>
         <source>Error saving file!</source>
         <translation>Ошибка сохранения файла!</translation>
     </message>
@@ -636,27 +671,27 @@
         <translation>Файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1021"/>
+        <location filename="../mainwindow.ui" line="1024"/>
         <source>Open</source>
         <translation>Открыть</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1024"/>
+        <location filename="../mainwindow.ui" line="1027"/>
         <source>Ctrl+O</source>
         <translation>Ctrl+O</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1045"/>
+        <location filename="../mainwindow.ui" line="1048"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1048"/>
+        <location filename="../mainwindow.ui" line="1051"/>
         <source>Ctrl+X</source>
         <translation>Ctrl+X</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1033"/>
+        <location filename="../mainwindow.ui" line="1036"/>
         <source>Save</source>
         <translation>Сохранить</translation>
     </message>
@@ -697,13 +732,13 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="412"/>
-        <location filename="../mainwindow.ui" line="1057"/>
+        <location filename="../mainwindow.ui" line="1060"/>
         <source>Detect</source>
         <translation>Поиск</translation>
     </message>
     <message>
         <location filename="../mainwindow.ui" line="449"/>
-        <location filename="../mainwindow.ui" line="1069"/>
+        <location filename="../mainwindow.ui" line="1072"/>
         <source>Read</source>
         <translation>Считать</translation>
     </message>
@@ -724,7 +759,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="629"/>
-        <location filename="../mainwindow.ui" line="1081"/>
+        <location filename="../mainwindow.ui" line="1084"/>
         <source>Erase</source>
         <translation>Стереть</translation>
     </message>
@@ -735,7 +770,7 @@
     </message>
     <message>
         <location filename="../mainwindow.ui" line="649"/>
-        <location filename="../mainwindow.ui" line="1105"/>
+        <location filename="../mainwindow.ui" line="1108"/>
         <source>Verify</source>
         <translation>Проверить</translation>
     </message>
@@ -776,197 +811,227 @@
         <translation>Программатор</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="969"/>
+        <location filename="../mainwindow.ui" line="972"/>
         <source>Help</source>
         <translation>Справка</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1036"/>
+        <location filename="../mainwindow.ui" line="1039"/>
         <source>Ctrl+S</source>
         <translation>Ctrl+S</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1060"/>
+        <location filename="../mainwindow.ui" line="1063"/>
         <source>Ctrl+D</source>
         <translation>Ctrl+D</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1072"/>
+        <location filename="../mainwindow.ui" line="1075"/>
         <source>Ctrl+R</source>
         <translation>Ctrl+R</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1084"/>
+        <location filename="../mainwindow.ui" line="1087"/>
         <source>Ctrl+E</source>
         <translation>Ctrl+E</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1093"/>
+        <location filename="../mainwindow.ui" line="1096"/>
         <source>Write</source>
         <translation>Записать</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1096"/>
+        <location filename="../mainwindow.ui" line="1099"/>
         <source>Ctrl+W</source>
         <translation>Ctrl+W</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1108"/>
+        <location filename="../mainwindow.ui" line="1111"/>
         <source>Ctrl+T</source>
         <translation>Ctrl+T</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1117"/>
+        <location filename="../mainwindow.ui" line="1120"/>
         <source>Undo</source>
         <translation>Назад</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1120"/>
+        <location filename="../mainwindow.ui" line="1123"/>
         <source>Ctrl+Z</source>
         <translation>Ctrl+Z</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1129"/>
+        <location filename="../mainwindow.ui" line="1132"/>
         <source>Redo</source>
         <translation>Повтор</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1132"/>
+        <location filename="../mainwindow.ui" line="1135"/>
         <source>Ctrl+Y</source>
         <translation>Ctrl+Y</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1242"/>
+        <location filename="../mainwindow.ui" line="1245"/>
         <source>Import from Intel HEX</source>
         <translation>Импорт из Intel HEX</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1251"/>
+        <location filename="../mainwindow.ui" line="1254"/>
         <source>Export to Intel HEX</source>
         <translation>Экспорт в Intel HEX</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1260"/>
+        <location filename="../mainwindow.ui" line="1263"/>
         <source>Extract from ASUS CAP</source>
         <translation>Извлечь из ASUS CAP</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1269"/>
+        <location filename="../mainwindow.ui" line="1272"/>
         <source>Goto address</source>
         <translation>Перейти на адрес</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1272"/>
+        <location filename="../mainwindow.ui" line="1275"/>
         <source>Move the cursor to the entered address</source>
         <translation>Перемещает курсор на введенный адрес</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1275"/>
+        <location filename="../mainwindow.ui" line="1278"/>
         <source>Ctrl+G</source>
         <translation>Ctrl+G</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1284"/>
+        <location filename="../mainwindow.ui" line="1287"/>
         <source>Security registers</source>
         <translation>Регистры безопасности</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1287"/>
+        <location filename="../mainwindow.ui" line="1290"/>
         <source>Ctrl+U</source>
         <translation>Ctrl+U</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1141"/>
+        <location filename="../mainwindow.ui" line="1299"/>
+        <source>Fill test image</source>
+        <translation>Заполнение тест-массивом</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1302"/>
+        <source>Filling the hex editor with a test array</source>
+        <translation>Заполнение шестнадцатеричного редактора тестовым массивом</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1305"/>
+        <source>Ctrl+L</source>
+        <translation>Ctrl+L</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1314"/>
+        <source>Compare files</source>
+        <translation>Сравнение файлов</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1317"/>
+        <source>Compares the results of the last and penultimate chip read or file open operation</source>
+        <translation>Сравнивает результаты последней и предпоследней операции чтения микросхемы или открытия файла.</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1320"/>
+        <source>Ctrl+M</source>
+        <translation>Ctrl+M</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="1144"/>
         <source>Save Part</source>
         <translation>Сохранить часть</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1153"/>
+        <location filename="../mainwindow.ui" line="1156"/>
         <source>Load Part</source>
         <translation>Загрузить часть</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1165"/>
+        <location filename="../mainwindow.ui" line="1168"/>
         <source>Find / Replace</source>
         <translation>Поиск/замена</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1168"/>
+        <location filename="../mainwindow.ui" line="1171"/>
         <source>Ctrl+F</source>
         <translation>Ctrl+F</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1173"/>
+        <location filename="../mainwindow.ui" line="1176"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1176"/>
+        <location filename="../mainwindow.ui" line="1179"/>
         <source>About IMSProgrammer</source>
         <translation>О программе IMSProg</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1179"/>
+        <location filename="../mainwindow.ui" line="1182"/>
         <source>Ctrl+H</source>
         <translation>Ctrl+H</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1188"/>
+        <location filename="../mainwindow.ui" line="1191"/>
         <source>Checksum calculate</source>
         <translation>Пересчет CRC32</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1191"/>
+        <location filename="../mainwindow.ui" line="1194"/>
         <source>Ctrl+A</source>
         <translation>Ctrl+A</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1200"/>
+        <location filename="../mainwindow.ui" line="1203"/>
         <source>Edit chips Database</source>
         <translation>Редактор базы микросхем</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1203"/>
+        <location filename="../mainwindow.ui" line="1206"/>
         <source>Ctrl+Q</source>
         <translation>Ctrl+Q</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1212"/>
-        <location filename="../mainwindow.cpp" line="1635"/>
+        <location filename="../mainwindow.ui" line="1215"/>
+        <location filename="../mainwindow.cpp" line="1646"/>
         <source>Stop</source>
         <translation>Стоп</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1215"/>
+        <location filename="../mainwindow.ui" line="1218"/>
         <source>Forced stop of read, write, erase and verification operations</source>
         <translation>Принудительная остановка операций чтения, записи, стирания и проверки</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1218"/>
+        <location filename="../mainwindow.ui" line="1221"/>
         <source>Ctrl+I</source>
         <translation>Ctrl+I</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1227"/>
+        <location filename="../mainwindow.ui" line="1230"/>
         <source>Chip info</source>
         <translation>Информ. о МС</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1230"/>
+        <location filename="../mainwindow.ui" line="1233"/>
         <source>Information about SFDP and status registers</source>
         <translation>Информация о SFDP области и регистрах статуса</translation>
     </message>
     <message>
-        <location filename="../mainwindow.ui" line="1233"/>
+        <location filename="../mainwindow.ui" line="1236"/>
         <source>Ctrl+P</source>
         <translation>Ctrl+P</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="768"/>
-        <location filename="../mainwindow.cpp" line="808"/>
-        <location filename="../mainwindow.cpp" line="1279"/>
-        <location filename="../mainwindow.cpp" line="1881"/>
-        <location filename="../mainwindow.cpp" line="1949"/>
+        <location filename="../mainwindow.cpp" line="779"/>
+        <location filename="../mainwindow.cpp" line="821"/>
+        <location filename="../mainwindow.cpp" line="1284"/>
+        <location filename="../mainwindow.cpp" line="1892"/>
+        <location filename="../mainwindow.cpp" line="1960"/>
         <source>Current file: </source>
         <translation>Текущий файл:</translation>
     </message>
@@ -986,161 +1051,161 @@
         <translation>Объем</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1684"/>
+        <location filename="../mainwindow.cpp" line="1696"/>
         <source>Opening DAT file</source>
         <translation>Открывается файл базы</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="224"/>
-        <location filename="../mainwindow.cpp" line="232"/>
-        <location filename="../mainwindow.cpp" line="238"/>
-        <location filename="../mainwindow.cpp" line="264"/>
-        <location filename="../mainwindow.cpp" line="265"/>
-        <location filename="../mainwindow.cpp" line="276"/>
-        <location filename="../mainwindow.cpp" line="291"/>
-        <location filename="../mainwindow.cpp" line="304"/>
-        <location filename="../mainwindow.cpp" line="579"/>
-        <location filename="../mainwindow.cpp" line="595"/>
-        <location filename="../mainwindow.cpp" line="614"/>
-        <location filename="../mainwindow.cpp" line="660"/>
-        <location filename="../mainwindow.cpp" line="710"/>
-        <location filename="../mainwindow.cpp" line="776"/>
-        <location filename="../mainwindow.cpp" line="812"/>
+        <location filename="../mainwindow.cpp" line="231"/>
+        <location filename="../mainwindow.cpp" line="239"/>
+        <location filename="../mainwindow.cpp" line="245"/>
+        <location filename="../mainwindow.cpp" line="272"/>
+        <location filename="../mainwindow.cpp" line="273"/>
+        <location filename="../mainwindow.cpp" line="285"/>
+        <location filename="../mainwindow.cpp" line="302"/>
+        <location filename="../mainwindow.cpp" line="315"/>
+        <location filename="../mainwindow.cpp" line="572"/>
+        <location filename="../mainwindow.cpp" line="588"/>
+        <location filename="../mainwindow.cpp" line="607"/>
+        <location filename="../mainwindow.cpp" line="653"/>
+        <location filename="../mainwindow.cpp" line="703"/>
+        <location filename="../mainwindow.cpp" line="771"/>
+        <location filename="../mainwindow.cpp" line="811"/>
         <location filename="../mainwindow.cpp" line="912"/>
         <location filename="../mainwindow.cpp" line="921"/>
         <location filename="../mainwindow.cpp" line="928"/>
         <location filename="../mainwindow.cpp" line="949"/>
         <location filename="../mainwindow.cpp" line="959"/>
-        <location filename="../mainwindow.cpp" line="1143"/>
-        <location filename="../mainwindow.cpp" line="1152"/>
-        <location filename="../mainwindow.cpp" line="1158"/>
-        <location filename="../mainwindow.cpp" line="1168"/>
-        <location filename="../mainwindow.cpp" line="1192"/>
-        <location filename="../mainwindow.cpp" line="1193"/>
-        <location filename="../mainwindow.cpp" line="1207"/>
-        <location filename="../mainwindow.cpp" line="1236"/>
-        <location filename="../mainwindow.cpp" line="1260"/>
-        <location filename="../mainwindow.cpp" line="1293"/>
-        <location filename="../mainwindow.cpp" line="1543"/>
-        <location filename="../mainwindow.cpp" line="1693"/>
-        <location filename="../mainwindow.cpp" line="1847"/>
-        <location filename="../mainwindow.cpp" line="1859"/>
-        <location filename="../mainwindow.cpp" line="1968"/>
-        <location filename="../mainwindow.cpp" line="2000"/>
-        <location filename="../mainwindow.cpp" line="2018"/>
-        <location filename="../mainwindow.cpp" line="2038"/>
+        <location filename="../mainwindow.cpp" line="1147"/>
+        <location filename="../mainwindow.cpp" line="1156"/>
+        <location filename="../mainwindow.cpp" line="1162"/>
+        <location filename="../mainwindow.cpp" line="1173"/>
+        <location filename="../mainwindow.cpp" line="1197"/>
+        <location filename="../mainwindow.cpp" line="1198"/>
+        <location filename="../mainwindow.cpp" line="1212"/>
+        <location filename="../mainwindow.cpp" line="1241"/>
+        <location filename="../mainwindow.cpp" line="1265"/>
+        <location filename="../mainwindow.cpp" line="1298"/>
+        <location filename="../mainwindow.cpp" line="1550"/>
+        <location filename="../mainwindow.cpp" line="1705"/>
+        <location filename="../mainwindow.cpp" line="1858"/>
+        <location filename="../mainwindow.cpp" line="1870"/>
+        <location filename="../mainwindow.cpp" line="1979"/>
+        <location filename="../mainwindow.cpp" line="2011"/>
+        <location filename="../mainwindow.cpp" line="2029"/>
+        <location filename="../mainwindow.cpp" line="2049"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1543"/>
+        <location filename="../mainwindow.cpp" line="1550"/>
         <source>File &apos;IMSProg_editor&apos; not found!</source>
         <translation>Не найден файл &apos;IMSProg_editor&apos;!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1693"/>
+        <location filename="../mainwindow.cpp" line="1705"/>
         <source>Error loading chip database file!</source>
         <translation>Ошибка загрузки файла базы микросхем!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1699"/>
+        <location filename="../mainwindow.cpp" line="1711"/>
         <source>Parsing DAT file</source>
         <translation>Обработка файла данных</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="195"/>
+        <location filename="../mainwindow.cpp" line="202"/>
         <source>Reading data from </source>
         <translation>Считывается МС </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="224"/>
+        <location filename="../mainwindow.cpp" line="231"/>
         <location filename="../mainwindow.cpp" line="912"/>
-        <location filename="../mainwindow.cpp" line="1143"/>
+        <location filename="../mainwindow.cpp" line="1147"/>
         <source>Unsupported chip type!</source>
         <translation>Неизвестный тип микросхемы!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="232"/>
-        <location filename="../mainwindow.cpp" line="276"/>
-        <location filename="../mainwindow.cpp" line="291"/>
-        <location filename="../mainwindow.cpp" line="595"/>
+        <location filename="../mainwindow.cpp" line="239"/>
+        <location filename="../mainwindow.cpp" line="285"/>
+        <location filename="../mainwindow.cpp" line="302"/>
+        <location filename="../mainwindow.cpp" line="588"/>
         <location filename="../mainwindow.cpp" line="921"/>
         <location filename="../mainwindow.cpp" line="959"/>
-        <location filename="../mainwindow.cpp" line="1152"/>
-        <location filename="../mainwindow.cpp" line="1207"/>
+        <location filename="../mainwindow.cpp" line="1156"/>
+        <location filename="../mainwindow.cpp" line="1212"/>
         <source>Programmer CH341a is not connected!</source>
         <translation>Программатор CH341a не подключен</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="238"/>
-        <location filename="../mainwindow.cpp" line="1158"/>
+        <location filename="../mainwindow.cpp" line="245"/>
+        <location filename="../mainwindow.cpp" line="1162"/>
         <source>Error reading block </source>
         <translation>Ошибка чтения блока </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="264"/>
+        <location filename="../mainwindow.cpp" line="272"/>
         <location filename="../mainwindow.cpp" line="949"/>
-        <location filename="../mainwindow.cpp" line="1192"/>
+        <location filename="../mainwindow.cpp" line="1197"/>
         <source>Before reading from chip please press &apos;Detect&apos; button.</source>
         <translation>Перед считыванием нажмите кнопку &apos;Поиск&apos;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="265"/>
+        <location filename="../mainwindow.cpp" line="273"/>
         <source>Please select the chip parameters - manufacture and chip name</source>
         <translation>Выберите параметры микросхемы - &apos;Произв.&apos; и &apos;Название&apos;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="304"/>
+        <location filename="../mainwindow.cpp" line="315"/>
         <source>The chip is not connect or missing!</source>
         <translation>Микросхема не установлена или повреждена!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="566"/>
-        <location filename="../mainwindow.cpp" line="1873"/>
+        <location filename="../mainwindow.cpp" line="559"/>
+        <location filename="../mainwindow.cpp" line="1884"/>
         <source>Saving file</source>
         <translation>Сохраняется файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="568"/>
-        <location filename="../mainwindow.cpp" line="1875"/>
+        <location filename="../mainwindow.cpp" line="561"/>
+        <location filename="../mainwindow.cpp" line="1886"/>
         <source>Save file</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="579"/>
-        <location filename="../mainwindow.cpp" line="1260"/>
+        <location filename="../mainwindow.cpp" line="572"/>
+        <location filename="../mainwindow.cpp" line="1265"/>
         <source>Error saving file!</source>
         <translation>Ошибка сохранения файла!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="598"/>
+        <location filename="../mainwindow.cpp" line="591"/>
         <source>Erasing the </source>
         <translation>Стирается МС </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="614"/>
-        <location filename="../mainwindow.cpp" line="660"/>
-        <location filename="../mainwindow.cpp" line="710"/>
+        <location filename="../mainwindow.cpp" line="607"/>
+        <location filename="../mainwindow.cpp" line="653"/>
+        <location filename="../mainwindow.cpp" line="703"/>
         <source>Error erasing sector </source>
         <translation>Ошибка стирания сектора </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="756"/>
-        <location filename="../mainwindow.cpp" line="802"/>
-        <location filename="../mainwindow.cpp" line="1943"/>
+        <location filename="../mainwindow.cpp" line="749"/>
+        <location filename="../mainwindow.cpp" line="801"/>
+        <location filename="../mainwindow.cpp" line="1954"/>
         <source>Opening file</source>
         <translation>Открывается файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="760"/>
-        <location filename="../mainwindow.cpp" line="804"/>
-        <location filename="../mainwindow.cpp" line="1945"/>
+        <location filename="../mainwindow.cpp" line="755"/>
+        <location filename="../mainwindow.cpp" line="803"/>
+        <location filename="../mainwindow.cpp" line="1956"/>
         <source>Open file</source>
         <translation>Открыть файл</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="776"/>
-        <location filename="../mainwindow.cpp" line="812"/>
+        <location filename="../mainwindow.cpp" line="771"/>
+        <location filename="../mainwindow.cpp" line="811"/>
         <source>The file size exceeds the chip size. Please select another chip or file or use `Save part` to split the file.</source>
         <translation>Размер файла превышает размер микросхемы. Пожалуйста, выберите другой тип микросхемы или файл или используйте `Сохранить часть`, чтобы разделить файл на части.</translation>
     </message>
@@ -1155,112 +1220,112 @@
         <translation>Ошибка записи сектора </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1113"/>
+        <location filename="../mainwindow.cpp" line="1117"/>
         <source>Veryfing data from </source>
         <translation>Проверяются данные МС </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1168"/>
+        <location filename="../mainwindow.cpp" line="1173"/>
         <source>Error comparing data!
 Address:   </source>
         <translation>Ошибка сравнения данных!
 Адрес:   </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1168"/>
+        <location filename="../mainwindow.cpp" line="1173"/>
         <source>
 Buffer: </source>
         <translation>
 Буфер: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1168"/>
+        <location filename="../mainwindow.cpp" line="1173"/>
         <source>    Chip: </source>
         <translation> Микросхема: </translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1193"/>
+        <location filename="../mainwindow.cpp" line="1198"/>
         <source>Please select the chip parameters - manufacture and chip name.</source>
         <translation>Выберите параметры МС - &apos;Произв.&apos; и &apos;Название&apos;.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1207"/>
         <source>Ok!</source>
         <translation>Ok!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1202"/>
+        <location filename="../mainwindow.cpp" line="1207"/>
         <source>The operation was successful!</source>
         <translation>Операция успешно выполнена!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1236"/>
+        <location filename="../mainwindow.cpp" line="1241"/>
         <source>The end address must be greater than the starting address.</source>
         <translation>Конечный адрес больше начального!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1248"/>
+        <location filename="../mainwindow.cpp" line="1253"/>
         <source>Saving block</source>
         <translation>Сохраняется блок</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1250"/>
+        <location filename="../mainwindow.cpp" line="1255"/>
         <source>Save block</source>
         <translation>Сохранить блок</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1274"/>
+        <location filename="../mainwindow.cpp" line="1279"/>
         <source>Opening block</source>
         <translation>Открывается блок</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1276"/>
+        <location filename="../mainwindow.cpp" line="1281"/>
         <source>Open block</source>
         <translation>Открыть блок</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1293"/>
+        <location filename="../mainwindow.cpp" line="1298"/>
         <source>The end address out of image size!</source>
         <translation>Конечный адрес больше размера буфера!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1332"/>
+        <location filename="../mainwindow.cpp" line="1338"/>
         <source>Connected</source>
         <translation>Подключен</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1337"/>
+        <location filename="../mainwindow.cpp" line="1343"/>
         <source>Not connected</source>
         <translation>Не подключен</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1847"/>
+        <location filename="../mainwindow.cpp" line="1858"/>
         <source>Before working with the security registers, click the &apos;Detect&apos; button</source>
         <translation>Прежде чем работать с регистрами безопасности, нажмите кнопку &apos;Поиск&apos;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1859"/>
+        <location filename="../mainwindow.cpp" line="1870"/>
         <source>There are no security registers in this chip or the current version of IMSProg does not support this algorithm.</source>
         <translation>В этой микросхеме нет регистров безопасности, или текущая версия IMSProg не поддерживает этот алгоритм.</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1968"/>
+        <location filename="../mainwindow.cpp" line="1979"/>
         <source>Not valid HEX format!</source>
         <translation>Неверный формат HEX!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2000"/>
+        <location filename="../mainwindow.cpp" line="2011"/>
         <source>The address is larger than the size of the chip!</source>
         <translation>Адрес больше, чем размер микросхемы!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="2018"/>
-        <location filename="../mainwindow.cpp" line="2038"/>
+        <location filename="../mainwindow.cpp" line="2029"/>
+        <location filename="../mainwindow.cpp" line="2049"/>
         <source>Checksum error!</source>
         <translation>Ошибка контрольной суммы!</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1635"/>
+        <location filename="../mainwindow.cpp" line="1646"/>
         <source>Operation aborted!</source>
         <translation>Операция прервана!</translation>
     </message>
@@ -1399,17 +1464,17 @@ Buffer: </source>
 <context>
     <name>UndoStack</name>
     <message>
-        <location filename="../commands.cpp" line="130"/>
+        <location filename="../commands.cpp" line="133"/>
         <source>Inserting %1 bytes</source>
         <translation>Вставлено %1 байт</translation>
     </message>
     <message>
-        <location filename="../commands.cpp" line="152"/>
+        <location filename="../commands.cpp" line="155"/>
         <source>Delete %1 chars</source>
         <translation>Удалено %1 симв.</translation>
     </message>
     <message>
-        <location filename="../commands.cpp" line="177"/>
+        <location filename="../commands.cpp" line="180"/>
         <source>Overwrite %1 chars</source>
         <translation>Заменено %1 симв.</translation>
     </message>
