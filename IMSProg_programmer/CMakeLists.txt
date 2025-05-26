@@ -93,6 +93,7 @@ dialogsp.cpp
 dialogrp.cpp
 dialogsfdp.cpp
 dialogsecurity.cpp
+dialogcompare.cpp
 dialogsr.cpp
 dialogsetaddr.cpp
 hexutility.cpp
@@ -102,6 +103,7 @@ bitbang_microwire.c
 ch341a_gpio.c
 ch341a_i2c.c
 ch341a_spi.c
+color_manager.cpp
 flashcmd_api.c
 i2c_eeprom.c
 mw_eeprom.c
@@ -115,10 +117,12 @@ mainwindow.h
 qhexedit.h
 chunks.h
 commands.h
+color_manager.h
 dialogsp.h
 dialogrp.h
 dialogsfdp.h
 dialogsecurity.h
+dialogcompare.h
 dialogsr.h
 dialoginfo.h
 dialogsetaddr.h
@@ -146,6 +150,7 @@ dialogsp.ui
 dialogrp.ui
 dialogsfdp.ui
 dialogsecurity.ui
+dialogcompare.ui
 dialogsr.ui
 dialogsetaddr.ui
 dialoginfo.ui

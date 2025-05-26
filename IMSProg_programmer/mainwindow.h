@@ -28,6 +28,7 @@
 #include "dialoginfo.h"
 #include "dialogsfdp.h"
 #include "dialogsr.h"
+#include "dialogcompare.h"
 #include "searchdialog.h"
 #include "hexutility.h"
 extern "C" {
@@ -109,20 +110,23 @@ private slots:
     void slotTimerAlarm();
     void on_actionGoto_address_triggered();
     void on_comboBox_i2cSpeed_currentIndexChanged(int index);
-
     void on_actionSecurity_registers_triggered();
+    void on_actionFill_test_image_triggered();
+    void preparingToCompare(bool type);
+    void on_actionCompare_files_triggered();
 
 private:
     Ui::MainWindow *ui;
-    QColor defaultTextColor;
     QString grnKeyStyle, redKeyStyle;
     QString lastDirectory;
     int statusCH341;
-    QByteArray chipData;
+    QByteArray chipData, oldChipData;
     uint32_t currentChipSize, currentNumBlocks, currentBlockSize, currentPageSize;
     uint8_t currentAlgorithm, currentChipType, currentI2CBusSpeed;
     unsigned int currentAddr4bit;
     bool isHalted;
+    bool filled;
+    uint8_t numberOfReads;
     QTimer *timer;
     QVector <QString> chType = {"SPI_FLASH","25_EEPROM","93_EEPROM","24_EEPROM","95_EEPROM"};
     struct chip_data {
@@ -144,7 +148,7 @@ private:
     };
     chip_data chips[2000];
     int max_rec;
-    QString fileName;
+    QString fileName, oldFileName, newFileName;
     bool cmdStarted;
     QHexEdit *hexEdit;
     void ch341StatusFlashing();

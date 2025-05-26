@@ -24,6 +24,7 @@ DialogSecurity::DialogSecurity(QWidget *parent) :
     ui(new Ui::DialogSecurity)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window| Qt::WindowMinimizeButtonHint | Qt::WindowCloseButtonHint);
 }
 
 DialogSecurity::~DialogSecurity()
@@ -99,10 +100,6 @@ void DialogSecurity::setAlgorithm(uint8_t currentAlg)
         hexEdit->setGeometry(0, 0, ui->frame->width(), ui->frame->height());
         hexEdit->setData(regData);
         hexEdit->setHexCaps(true);
-        defaultTextColor = ui->label->palette().color(QPalette::Text);
-        hexEdit->setAsciiFontColor(defaultTextColor);
-        hexEdit->setAddressFontColor(defaultTextColor);
-        hexEdit->setHexFontColor(defaultTextColor);
         hexEdit->setFont(heFont);
         hexEdit->setData(regData);
     }
